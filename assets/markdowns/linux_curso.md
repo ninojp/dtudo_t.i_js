@@ -114,9 +114,9 @@ Ao longo desta aula, tivemos a oportunidade de explorar vários comandos e dar o
 
 - ls (List): Lista os arquivos e diretórios no diretório atual. Com a opção -a, exibe também arquivos ocultos.
 
-- cd (Change Directory): Altera o diretório atual para o especificado. Exemplo (cd /projeto muda para o diretório projeto.
+- cd (Change Directory): Altera o diretório atual para o especificado. Exemplo cd /projeto muda para o diretório projeto.
 
-- sudo (SuperUser Do): Permite a execução de comandos com privilégios de superusuário (root). Exemplo (sudo ls /root exibe o conteúdo do diretório root com permissões elevadas.
+- sudo (SuperUser Do): Permite a execução de comandos com privilégios de superusuário (root). Exemplo sudo ls /root exibe o conteúdo do diretório root com permissões elevadas.
 
 - sudo -i: Inicia uma sessão de shell interativa como usuário root, permitindo executar comandos com permissões administrativas sem precisar prefixar cada comando com sudo.
 
@@ -320,8 +320,6 @@ Esta abordagem garante que você confirme a exclusão de cada arquivo, evitando 
 No Linux, quando um arquivo ou diretório é criado, algumas permissões são atribuídas a ele de forma automática.
 
 As permissões são divididas em três grupos: o usuário que criou o arquivo (usuário proprietário), o grupo dono do arquivo (que pode conter vários usuários) e os demais usuários que não pertencem ao grupo dono.
-
-![alt text](image.png)
 
 Essas permissões podem ser de três tipos:
 
